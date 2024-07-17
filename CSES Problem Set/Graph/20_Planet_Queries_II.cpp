@@ -1,69 +1,78 @@
 #include<iostream>
 using namespace std;
-int n,q,a,b,s[200005],g[200005],l[200005],d[200005],gc=0,v[200005],f[200005][30],br[200005];
-int group(int x){
-    cout<<x<<endl;
-    v[x]=1;
-    int t=0;
-    if(v[s[x]]){
-        gc++;
-        g[x]=gc;
-        br[s[x]]=1;
-        l[x]=0;
-        t=1;
+int n,q,tar[200005],vis[200005],co[200005],dep[200005],cotop=0,jump[200005][20],ord[200005],si[200005];
+int dfs(int x){
+    if(vis[tar[x]]==1){
+        co[x]=++cotop;
+        dep[x]=0;
+        ord[x]=1;
+        vis[x]=2;
+        return tar[x];
     }
-    else{
-        if(!g[s[x]]){
-            t=group(s[x]);
-        }
-        if(!t){
-            d[x]=d[s[x]]+1;
-        }
-        else{
-            l[x]=l[s[x]]+1;
-        }
-        g[x]=g[s[x]];
+    if(vis[tar[x]]==2){
+        co[x]=co[tar[x]];
+        dep[x]=dep[tar[x]]+1;
+        vis[x]=2;
+        return 0;
     }
-    v[x]=0;
-    if(t&&(!br[x])){
-        return 1;
-    }
-    return 0;
-}
-int go(int x,int k){
-    int pc=0;
-    int ans=x;
-    while(k){
-        if((k&1)==1){
-            ans=f[ans][pc];
+    vis[x]=1;
+    int res=dfs(tar[x]);
+    vis[x]=2;
+    co[x]=co[tar[x]];
+    if(res!=0){
+        dep[x]=0;
+        ord[x]=ord[tar[x]]+1;
+        if(res==x){
+            si[co[x]]=ord[x];
+            return 0;
         }
-        pc++;
-        k=(k>>1);
     }
-    return ans;
+    else dep[x]=dep[tar[x]]+1;
+    return res;
 }
 int main(){
     cin>>n>>q;
     for(int i=1;i<=n;i++){
-        l[i]=-1;
-        cin>>s[i];
-        f[i][0]=s[i];
-    }
-    for(int i=1;i<=n;i++){
-        if(!g[i]){
-            cout<<"------\n";
-            group(i);
+        cin>>tar[i];
+        if(tar[i]==i){
+            co[i]=++cotop;
+            ord[i]=1;
+            si[cotop]=1;
+            dep[i]=0;
         }
     }
+    for(int i=1;i<=n;i++) if(!vis[i]) dfs(i);
     for(int i=1;i<=n;i++){
-        cout<<g[i]<<" "<<d[i]<<" "<<l[i]<<endl;
+        //cout<<co[i]<<" "<<dep[i]<<" "<<ord[i]<<" "<<si[co[i]]<<endl;
     }
-    int p=2,pc=1;
-    while(p<=n){
-        for(int i=1;i<=n;i++){
-            f[i][pc]=f[f[i][pc-1]][pc-1];
+    for(int i=1;i<=n;i++) jump[i][0]=tar[i];
+    for(int k=1;k<20;k++) for(int i=1;i<=n;i++) jump[i][k]=jump[jump[i][k-1]][k-1];
+    for(int i=1;i<=q;i++){
+        int a,b;
+        cin>>a>>b;
+        int res=0;
+        if(co[a]!=co[b]) cout<<-1<<endl;
+        else if(dep[a]==0&&dep[b]==0) cout<<(ord[a]-ord[b]+si[co[a]])%si[co[a]]<<endl;
+        else if(dep[b]==0){
+            for(int k=19;k>=0;k--){
+                if(dep[a]-(1<<k)>=0){
+                    a=jump[a][k];
+                    res+=(1<<k);
+                }   
+            }
+            res+=(ord[a]-ord[b]+si[co[a]])%si[co[a]];
+            cout<<res<<endl;
         }
-        p=(p<<1);
-        pc++;
+        else{
+            for(int k=19;k>=0;k--){
+                if(dep[a]-(1<<k)>=dep[b]){
+                    a=jump[a][k];
+                    res+=(1<<k);
+                }
+            }
+            if(a==b) cout<<res<<endl;
+            else cout<<-1<<endl;
+        }
+        
     }
 }
