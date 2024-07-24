@@ -5,6 +5,8 @@
         "xtree": "cpp",
         "tuple": "cpp",
         "xutility": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     }
 }
