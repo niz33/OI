@@ -1,0 +1,673 @@
+#
+# PREFAB SKIPPING USING LOADING SCREEN MOD
+#
+
+# Comment lines start with hashtag.
+
+
+Buildings:
+
+  H1 1x1 Tenement          
+  H5 3x3 Tenement03        
+  H5 2x3 Tenement06        
+  H5 3x3 Tenement05        
+  H5 3x2 Highrise06        
+  H4 4x3 Tenement07        
+  H2 3x3 Tenement01        
+  H1 4x3 Tenement07        
+  H3 4x3 Tenement08        
+  H4 4x4 Tenement07b       
+  H1 3x3 Tenement08        
+  H1 3x2 Tenement01        
+  H1 3x4 Tenement07        
+  H3 2x2 Tenement04        
+  H2 1x1 Tenement01        
+  H2 3x4 Tenement06        
+  H4 2x2 Tenement09        
+  H4 1x1 Tenement06        
+  H5 2x2 tenement03        
+  H3 1x1 Tenement05        
+  H1 4x4 Tenement03        
+  H5 3x2 Tenement06        
+  H1 2x2 Tenement05        
+  H1 2x3 Tenement02        
+  H1 3x2 Tenement04        
+  H1 3x3 Tenement03        
+  H5 3x4 Highrise05        
+  H5 3x4 Tenement09        
+  H5 3x2 Tenement02        
+  H5 4x3 Highrise03        
+  H5 4x3 Highrise04        
+  H5 4x3 Tenement04        
+  H5 4x4 Highrise07        
+  H5 4x4 Highrise08        
+  H1 3x4 Tenement03a       
+  H1 4x3 Tenement02        
+  H1 4x3 Tenement05        
+  H1 4x4 Tenement04a       
+  H4 4x3 tenement08a       
+  H2 2x2 tenement06        
+  H2 2x3 Tenement01        
+  H2 3x2 Tenement05        
+  H2 3x3 Tenement06        
+  H2 3x4 Tenement01 1a     
+  H2 4x3 Tenement06        
+  H2 4x3 Tenement06a       
+  H2 4x4 Tenement02a       
+  H2 4x4 Tenement05b       
+  H2 4x4 Tenement07a       
+  H3 2x3 tenement02        
+  H3 3x3 Tenement04        
+  H3 3x4 tenement03a       
+  H3 3x4 Tenement08        
+  H3 4x3 Tenement04a       
+  H3 4x4 Tenement05a       
+  H3 4x4 Tenement08b       
+  H4 2x3 tenement04        
+  H4 3x2 tenement07        
+  H4 3x3 Tenement08        
+  H4 3x4 tenement05a       
+  H4 3x4 Tenement07b       
+  H4 4x4 Tenement09a       
+  H5 1x1 highrise_hiden_hightech01 
+  H5 4x3 Highrise01        
+  H5 4x3 Highrise07a       
+  H5 4x4 Highrise02        
+  H5 4x4 Tenement01        
+  H3 3x2 Tenement04a       
+
+
+  H2 3x3 Office06    
+  H2 3x3 Office08    
+  H1 2x3 Office01    
+  H1 2x3 Office07    
+  H1 3x3 Office04    
+  H1 4x3 Office06    
+  H2 1x1 Office01    
+  H2 2x2 Office04    
+  H2 2x2 Office07    
+  H2 4x4 Office06    
+  H2 4x3 Office09    
+  H2 4x3 Office06    
+  H3 3x2 Office01    
+  H3 3x4 Office08    
+  H3 4x4 Office12    
+  H3 4x4 Office07    
+  H3 4x4 Office05    
+  H3 4x4 Office02    
+  H3 4x4 Office01    
+  H3 4x3 Office06    
+  H3 4x3 Office04    
+  H3 4x3 Office03    
+  H3 3x3 Office10    
+  H1 3x4 Office01    
+  H1 4x4 Office06    
+  H2 2x2 Office08    
+  H2 2x3 Office04    
+  H2 2x3 Office07    
+  H2 3x2 Office08    
+  H1 4x4 Office05a   
+  H1 3x4 Office08a   
+  H2 3x4 Office05a   
+  H2 4x3 Office09a   
+  H1 3x2 Office06    
+  H1 1x1 Office      
+  H1 2x2 Office02    
+  H1 2x2 Office03    
+  H1 2x2 Office05    
+  H1 3x4 Office02a   
+  H1 3x4 Office06    
+  H3 1x1 Office01    
+  H3 2x2 Office11    
+  H3 2x3 Office10    
+  H3 3x4 Office11a   
+  H3 4x3 Office02a   
+
+
+eco_residential_low01_1x1level1                           
+  eco_residential_low01_1x1level2                         
+  eco_residential_low01_1x1level3                         
+  eco_residential_low01_1x1level4                         
+  eco_residential_low01_1x1level5                         
+  eco_residential_low01_1x2level1                         
+  eco_residential_low01_1x2level2                         
+  eco_residential_low01_1x2level3                         
+  eco_residential_low01_1x2level4                         
+  eco_residential_low01_1x2level5                         
+  eco_residential_low01_2x2level1                         
+  eco_residential_low01_2x2level2                         
+  eco_residential_low01_2x2level3                         
+  eco_residential_low01_2x2level4                         
+  eco_residential_low01_2x2level5                         
+  eco_residential_low01_2x3level1                         
+  eco_residential_low01_2x3level2                         
+  eco_residential_low01_2x3level3                         
+  eco_residential_low01_2x3level4                         
+  eco_residential_low01_2x3level5                         
+  eco_residential_low01_3x2level1                         
+  eco_residential_low01_3x2level2                         
+  eco_residential_low01_3x2level3                         
+  eco_residential_low01_3x2level4                         
+  eco_residential_low01_3x2level5                         
+  eco_residential_low01_3x3level1                         
+  eco_residential_low01_3x3level2                         
+  eco_residential_low01_3x3level3                         
+  eco_residential_low01_3x3level4                         
+  eco_residential_low01_3x3level5                         
+  eco_residential_low01_3x4level1                         
+  eco_residential_low01_3x4level2                         
+  eco_residential_low01_3x4level3                         
+  eco_residential_low01_3x4level4                         
+  eco_residential_low01_3x4level5                         
+  eco_residential_low01_4x3level1                         
+  eco_residential_low01_4x3level2                         
+  eco_residential_low01_4x3level3                         
+  eco_residential_low01_4x3level4                         
+  eco_residential_low01_4x3level5                         
+  eco_residential_low01_4x4level1                         
+  eco_residential_low01_4x4level2                         
+  eco_residential_low01_4x4level3                         
+  eco_residential_low01_4x4level4                         
+  eco_residential_low01_4x4level5                           
+  eco_residential_high01_1x1level1                        
+  eco_residential_high01_1x1level2                        
+  eco_residential_high01_1x1level3                        
+  eco_residential_high01_1x1level4                        
+  eco_residential_high01_1x1level5                        
+  eco_residential_high01_1x2level1                        
+  eco_residential_high01_1x2level2                        
+  eco_residential_high01_1x2level3                        
+  eco_residential_high01_1x2level4                        
+  eco_residential_high01_1x2level5                        
+  eco_residential_high01_2x2level1                        
+  eco_residential_high01_2x2level2                        
+  eco_residential_high01_2x2level3                        
+  eco_residential_high01_2x2level4                        
+  eco_residential_high01_2x2level5                        
+  eco_residential_high01_2x3level1                        
+  eco_residential_high01_2x3level2                        
+  eco_residential_high01_2x3level3                        
+  eco_residential_high01_2x3level4                        
+  eco_residential_high01_2x3level5                        
+  eco_residential_high01_3x2level1                        
+  eco_residential_high01_3x2level2                        
+  eco_residential_high01_3x2level3                        
+  eco_residential_high01_3x2level4                        
+  eco_residential_high01_3x2level5                        
+  eco_residential_high01_3x3level1                        
+  eco_residential_high01_3x3level2                        
+  eco_residential_high01_3x3level3                        
+  eco_residential_high01_3x3level4                        
+  eco_residential_high01_3x3level5                        
+  eco_residential_high01_3x4level1                        
+  eco_residential_high01_3x4level2                        
+  eco_residential_high01_3x4level3                        
+  eco_residential_high01_3x4level4                        
+  eco_residential_high01_3x4level5                        
+  eco_residential_high01_4x3level1                        
+  eco_residential_high01_4x3level2                        
+  eco_residential_high01_4x3level3                        
+  eco_residential_high01_4x3level4                        
+  eco_residential_high01_4x3level5                        
+  eco_residential_high01_4x4level1                        
+  eco_residential_high01_4x4level2                        
+  eco_residential_high01_4x4level3                        
+  eco_residential_high01_4x4level4                        
+  eco_residential_high01_4x4level5                                       
+  Hightech Office 1x1 01                                  
+  Hightech Office 1x2 01                                  
+  Hightech Office 1x3 01                                  
+  Hightech Office 1x4 01                                  
+  Hightech Office 2x1 01                                  
+  Hightech Office 2x2 01                                  
+  Hightech Office 2x3 01                                  
+  Hightech Office 2x4 01                                  
+  Hightech Office 3x1 01                                  
+  Hightech Office 3x2 01                                  
+  Hightech Office 3x3 01                                  
+  Hightech Office 3x4 01                                  
+  Hightech Office 4x1 01                                  
+  Hightech Office 4x2 01                                  
+  Hightech Office 4x3 01                                  
+  Hightech Office 4x4 01                                                      
+  Hightech Office 2x2 02                                                                   
+  Hightech Office 4x3 02                                  
+  eco_residential_high02_2x3level1                        
+  eco_residential_high02_2x3level2                        
+  eco_residential_high02_2x3level3                        
+  eco_residential_high02_2x3level4                        
+  eco_residential_high02_2x3level5                        
+  eco_residential_high02_4x3level1                        
+  Hightech Office 2x2 03                                  
+  eco_residential_high02_4x3level2                        
+  eco_residential_high02_4x3level3                        
+  eco_residential_high02_4x3level4                        
+  eco_residential_high02_4x3level5                        
+  Hightech Office 2x2 04                                  
+  eco_residential_high02_4x4level1                        
+  eco_residential_high02_4x4level2                        
+  eco_residential_high02_4x4level3                        
+  eco_residential_high02_4x4level4                        
+  eco_residential_high02_4x4level5                        
+  eco_residential_low02_1x1level1                         
+  eco_residential_low02_1x1level2                         
+  eco_residential_low02_1x1level3                         
+  eco_residential_low02_1x1level4                         
+  eco_residential_low02_1x1level5                         
+  eco_residential_low02_1x2level1                         
+  eco_residential_low02_1x2level2                         
+  eco_residential_low02_1x2level3                         
+  eco_residential_low02_1x2level4                         
+  eco_residential_low02_1x2level5                         
+  eco_residential_low02_2x2level1                         
+  eco_residential_low02_2x2level2                         
+  eco_residential_low02_2x2level3                         
+  eco_residential_low02_2x2level4                         
+  eco_residential_low02_2x2level5                         
+  eco_residential_low02_2x3level1                         
+  eco_residential_low02_2x3level2                         
+  eco_residential_low02_2x3level3                         
+  eco_residential_low02_2x3level4                         
+  eco_residential_low02_2x3level5                         
+  eco_residential_low02_3x2level1                         
+  eco_residential_low02_3x2level2                         
+  eco_residential_low02_3x2level3                         
+  eco_residential_low02_3x2level4                         
+  eco_residential_low02_3x2level5                         
+  eco_residential_low02_3x3level1                         
+  eco_residential_low02_3x3level2                         
+  eco_residential_low02_3x3level3                         
+  eco_residential_low02_3x3level4                         
+  eco_residential_low02_3x3level5                         
+  eco_residential_low02_3x4level1                         
+  eco_residential_low02_3x4level2                         
+  eco_residential_low02_3x4level3                         
+  eco_residential_low02_3x4level4                         
+  eco_residential_low02_3x4level5                         
+  eco_residential_low02_4x3level1                         
+  eco_residential_low02_4x3level2                         
+  eco_residential_low02_4x3level3                         
+  eco_residential_low02_4x3level4                         
+  eco_residential_low02_4x3level5                         
+  eco_residential_low02_4x4level1                         
+  eco_residential_low02_4x4level2                         
+  eco_residential_low02_4x4level3                         
+  eco_residential_low02_4x4level4                         
+  eco_residential_low02_4x4level5                         
+  eco_residential_high02_3x4level5                        
+  eco_residential_high02_3x3level5                        
+  eco_residential_high02_3x2level5                        
+  eco_residential_high02_2x2level5                        
+  eco_residential_high02_1x2level5                        
+  eco_residential_high02_1x1level5                        
+  eco_residential_high02_3x4level4                        
+  eco_residential_high02_3x4level3                        
+  eco_residential_high02_3x4level2                        
+  eco_residential_high03_3x3level1                        
+  eco_residential_high03_3x3level2                        
+  eco_residential_high03_3x3level3                        
+  eco_residential_high03_3x3level4                        
+  eco_residential_high03_3x3level5                        
+  eco_residential_high02_3x4level1                        
+  eco_residential_high02_2x2level4                        
+  eco_residential_high02_2x2level3                        
+  eco_residential_high02_2x2level2                        
+  eco_residential_high03_4x3level1                        
+  eco_residential_high03_4x3level2                        
+  eco_residential_high03_4x3level3                        
+  eco_residential_high03_4x3level4                        
+  eco_residential_high03_4x3level5                        
+  eco_residential_high02_2x2level1                                                           
+  eco_residential_high03_4x4_level5                       
+
+# The above heading means that what follows concerns building prefabs.
+# But Buildings are the default, so the heading is not mandatory here.
+
+# When you skip a building, it will not be available in game.
+# To skip some buildings, just name them, one building per line, like here.
+
+# All building names are available here, with pictures:
+# https://thale5.github.io/Prefabs/
+
+# You can use wildcards. * means any number of characters while ? means one character.
+# In case you are wondering, yes, you can just type * to skip all buildings.
+
+# This line skips all buildings that contain the word 'processing' in the name.
+
+# Skipping ignores case, so these two lines mean the same.
+#
+# SERVICES AND SUB-SERVICES
+#
+
+# To limit skipping to some service, you can add a service prefix.
+# This skips all industrial buildings that contain the word processing.
+
+# To be even more specific, you can use a sub-service prefix instead.
+# This skips all industrial ore buildings that contain the word processing.
+# Generic, oil, farming and forestry industry are not affected by this.
+
+# You find the service and sub-service prefixes by following the link above.
+# Look for the second line in the grey boxes.
+
+#
+# ADDING EXCEPTIONS
+#
+
+# Let's say there is one industrial ore processing building I would like to use,
+# regardless of skipping. I can do that by adding an exception for it.
+
+# Any exceptions you add outweigh skipping.
+
+# Here is another example about exceptions.
+# Skip all commercial buildings except the new commercial eco ones.
+
+# One more example.
+# Skip all shops but keep the shopping center and all industrial sweatshops.
+
+#
+# ADVANCED FEATURES
+#
+
+# If you are familiar with C# regular expressions, you can use them.
+# Just use @ to mark the pattern as a regex.
+# These two lines mean the same.
+#
+# THINGS TO REMEMBER
+#
+
+# You can use spaces and/or lowercase in the prefixes if you like, for better readability.
+# These two lines mean the same.
+
+# Some things that Cities Skylines considers as buildings do not look like buildings.
+# Those things include pillars, pipes, and network connections.
+# You should keep that in mind if you use a powerful pattern such as * to skip everything.
+# I recommend adding the exceptions shown below if you use the * pattern or something similar.
+
+# Network connections
+Except:Road Connection
+Except:Road Connection Small
+Except:Train Connection
+Except:Airplane Connection
+Except:Ship Connection
+
+# Pillars
+Except:MediumBridgePillar
+Except:HighwayBridgePillar
+Except:HighwayRampPillar
+Except:HighwayBridgeSuspensionPillar
+Except:LargeRoadBridgeSuspensionPillar
+Except:RoadSmallBridgePillar
+Except:GravelBridgePillar
+Except:RailwayBridgePillar
+Except:RailwayElevatedPillar
+Except:RailOnewayBridgePillar
+Except:RailOnewayElevatedPillar
+Except:Pedestrian Elevated Pillar
+Except:LargeRoadBikeBridgeSuspensionPillar
+Except:Two Lane Highway Bridge Pillar
+Except:Two Lane Highway Suspension Pillar
+Except:Four Lane Highway Bridge Pillar
+Except:Four Lane Highway Suspension Pillar
+Except:Wooden Footbridge Pillar 6
+Except:Wooden Footbridge Pillar 12
+Except:Wooden Footbridge Pillar 18
+Except:Wooden Footbridge Pillar 24
+Except:Cable Car Pylon 12
+Except:Cable Car Pylon 24
+Except:Cable Car Pylon 36
+Except:Cable Car Pylon 48
+Except:Cable Car Pylon 60
+Except:Monorail Pylon
+Except:Monorail Pylon 2
+Except:Monorail Pylon 3
+
+# Road infrastructure
+Except:Empty Intersection
+Except:RoundaboutL
+Except:RoundaboutS
+
+# Other infrastructure
+Except:Integrated Metro Station
+Except:Metro Entrance
+Except:Water Intake
+Except:Water Outlet
+Except:Fresh Water Outlet
+Except:Eco Water Outlet
+
+#
+# VEHICLE SKIPPING
+#
+
+
+Vehicles:
+
+
+# The above heading means that what follows concerns vehicle prefabs.
+# You can skip vehicles just like you skip buildings. You can skip them by name,
+# use wildcards and prefixes, and add exceptions.
+
+# I do not want to see these ones in game.
+
+# Not a fan of these, either.
+
+# I would like to skip Tractor and its trailers because they look silly on highways.
+# However, Tractor is the only Industrial Farming vehicle in the base game. Farms cannot
+# operate without vehicles!
+# To skip these ones, I need to find replacements on the workshop first.
+# Industries DLC has a new Industrial Farming truck. If you have the DLC, you are covered.
+#Tractor
+#Tractor Trailer
+#Tractor Trailer 02
+
+# You should not skip Sedan because it is special in the game (used as a fallback vehicle).
+# To prevent accidental skipping, you can add an exception for it like shown here.
+
+# I have tested skipping all vehicle prefabs and the game worked. However, as mentioned above,
+# city services do not function properly without vehicles. Also remember that metros, bicycles
+# airplanes, ships, etc. are also vehicles.
+
+#
+# PROP SKIPPING
+#
+
+
+Props:
+
+
+# The above heading means that what follows concerns prop prefabs. Again, you can skip by name,
+# use wildcards and prefixes, and add exceptions.
+
+# The game has too many flashy billboards. Let's skip them, starting with the awful ones.
+
+# Because the game uses prop variations (explained on the Props htm page),
+# the more billboards you skip, the more often you see the remaining variations,
+# which becomes annoying. Skipping most of the big billboards works best for me.
+
+
+# If you want to see eco buildings without vegetation, just uncomment these lines.
+# Notice that None is actually a valid service prefix.
+#None:Wall Vegetation*
+#None:Roof Vegetation*
+
+# I have tested skipping all prop prefabs and the game worked. However, some props have special
+# purpose and should not be skipped. These are described below using the exception notation.
+
+# Markers (for example door markers) should not be skipped. To prevent accidental skipping,
+# you can add an exception.
+
+# Ensure that parking spaces are always kept.
+
+# Some mods expect to find certain props in the game. Aggressive prop skipping may cause problems
+# if you use many mods.
+
+# Network Extensions 2 requires some props. If you use NEXT 2, you can add these exceptions
+# to prevent accidental skipping. Even if you don't use NEXT 2, it is a good idea to always keep
+# these props.
+Except:Wall Light Orange
+Except:StreetLamp02
+Except:High Bench
+Except:Traffic Light 01
+Except:Traffic Light 01 Mirror
+Except:Traffic Light 02
+Except:Traffic Light 02 Mirror
+Except:Traffic Light Pedestrian
+Except:New Street Light
+Except:New Street Light Highway
+Except:New Street Light Small Road
+Except:New Street Light Avenue
+Except:30 Speed Limit
+Except:40 Speed Limit
+Except:50 Speed Limit
+Except:60 Speed Limit
+Except:100 Speed Limit
+Except:Motorway Sign
+# NEXT 2 requires the next ones for European maps only.
+Except:Traffic Light European 01
+Except:Traffic Light European 01 Mirror
+Except:Traffic Light European 02
+Except:Traffic Light European 02 Mirror
+Except:Traffic Light Pedestrian European
+
+# Additional infractructure worth keeping.
+Except:RailwayPowerline
+Except:RailwayPowerline Singular
+
+#
+# UNITY LEVEL SKIPPING
+#
+
+
+Levels:
+
+
+# The above heading means that what follows concerns Unity level loading. Here, you
+# can skip only by Unity level name.
+
+# Level skipping is actually the most efficient form of skipping because the level
+# is skipped as a whole. However, you must be careful because some levels contain
+# buildings and events. If you have used some level content in your savegame, do
+# not skip that level!
+
+# Relaxation Station Radio Channel.
+# Uncomment the next line to skip this level.
+#RadioStation1
+
+# Rock City Radio Channel.
+# Uncomment the next line to skip this level.
+#RadioStation2
+
+# All That Jazz Radio Channel.
+# Uncomment the next line to skip this level.
+#RadioStation3
+
+# Country Road Radio Channel.
+# Uncomment the next line to skip this level.
+#RadioStation4
+
+# Synthetic Dawn Radio Channel.
+# Uncomment the next line to skip this level.
+#RadioStation5
+
+# Deep Focus Radio Channel.
+# Uncomment the next line to skip this level.
+#RadioStation6
+
+# Campus Radio Channel.
+# Uncomment the next line to skip this level.
+#RadioStation7
+
+# Carols, Candles and Candy Radio Channel.
+# Uncomment the next line to skip this level.
+#Christmas
+
+# Match Day Stadium.
+# Uncomment the next line to skip this level.
+#Football
+
+# Stadium ITA.
+# Uncomment the next line to skip this level.
+#Football2
+
+# Stadium ENG.
+# Uncomment the next line to skip this level.
+#Football3
+
+# Stadium SPA.
+# Uncomment the next line to skip this level.
+#Football4
+
+# Stadium FRA.
+# Uncomment the next line to skip this level.
+#Football5
+
+# Concerts DLC.
+# Uncomment the next line to skip this level.
+#MusicFestival
+
+# Pearls From the East DLC.
+# Uncomment the next line to skip this level.
+#OrientalBuildings
+
+#
+#If you absolutely want, you can skip paid content as Unity levels, as shown below.
+#
+
+# After Dark DLC.
+# Uncomment the next line to skip this DLC.
+#AfterDarkDLC
+
+# Snowfall DLC.
+# Uncomment the next line to skip this DLC.
+#SnowFallDLC
+
+# Natural Disasters DLC.
+# Uncomment the next line to skip this DLC.
+#NaturalDisastersDLC
+
+# Mass Transit DLC.
+# Uncomment the next line to skip this DLC.
+#InMotionDLC
+
+# Green Cities DLC.
+# Uncomment the next line to skip this DLC.
+#GreenCitiesDLC
+
+# Parklife DLC.
+# Uncomment the next line to skip this DLC.
+#ParksDLC
+
+# Industries DLC.
+# Uncomment the next line to skip this DLC.
+#IndustryDLC
+
+# Campus DLC.
+# Uncomment the next line to skip this DLC.
+#CampusDLC
+
+# Sunset Harbor DLC.
+# Uncomment the next line to skip this DLC.
+#UrbanDLC
+
+# Art Deco Content Creator Pack.
+# Uncomment the next line to skip this Content Creator Pack.
+#ModderPack1
+
+# High-Tech Buildings Content Creator Pack.
+# Uncomment the next line to skip this Content Creator Pack.
+#ModderPack2
+
+# European Suburbia Content Creator Pack.
+# Uncomment the next line to skip this Content Creator Pack.
+#ModderPack3
+
+# University City Content Creator Pack.
+# Uncomment the next line to skip this Content Creator Pack.
+#ModderPack4
+
+# Modern City Center Content Creator Pack.
+# Uncomment the next line to skip this Content Creator Pack.
+#ModderPack5
+
+# Modern Japan Content Creator Pack.
+# Uncomment the next line to skip this Content Creator Pack.
+#ModderPack6
