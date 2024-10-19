@@ -1,0 +1,21 @@
+formatting settings
+blah blah blah
+
+
+
+
+\section[day blah blah][date= blah,project: blah]
+
+\subsection[goal]
+ sdflasdfjaslkfs
+
+ lorem ipsum
+
+ \subsection[code]
+
+ \code[c++]{
+    fghsgafshgafjgh
+ }
+
+ \image[sdfsda.png]
+

@@ -10,5 +10,6 @@
         "unordered_set": "cpp",
         "deque": "cpp",
         "string": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/clang"
 }
