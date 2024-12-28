@@ -1,16 +1,13 @@
-#include<iostream>
+#include <iostream>
+#include <cmath>
+#include <vector>
+#include <set>
+#include <map>
 using namespace std;
-int n[4]={4,6,8,9};
-int main(){
-    for(int a=0;a<4;a++){
-        for(int b=0;b<4;b++){
-            for(int c=0;c<4;c++){
-                for(int d=0;d<4;d++){
-                    if(n[a]+n[b]+n[c]+n[d]==20){
-                        cout<<n[a]<<" "<<n[b]<<" "<<n[c]<<" "<<n[d]<<endl;
-                    }
-                }
-            }
-        }
+signed main() {
+    int ans=0;
+    for(int i=1;i<=15;i++){
+        cout<<(1+i+i*i+i*i*i-10*i+5)<<endl;
     }
+    cout<<ans<<endl;
 }
